@@ -1,7 +1,7 @@
 # Amit Kumar - Professional Portfolio Website
 
 A modern, interactive, and professional portfolio website built with the MEAN stack (MongoDB, Express.js, Angular, Node.js) showcasing Amit Kumar's projects, skills, and achievements.
-
+https://i.ibb.co/hx7SnDmp/Screenshot-2025-08-09-002554.png
 ## 🚀 Features
 
 - **Responsive Design**: Works perfectly on all devices (desktop, tablet, mobile)
