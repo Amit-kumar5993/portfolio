@@ -1,0 +1,50 @@
+{
+  "name": "portfolio-amit",
+  "version": "1.0.0",
+  "description": "Professional MEAN Stack Portfolio Website for Amit Kumar",
+  "main": "backend/server.js",
+  "engines": {
+    "node": "18.x",
+    "npm": "9.x"
+  },
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "concurrently \"npm run server\" \"npm run frontend\"",
+    "server": "nodemon backend/server.js",
+    "frontend": "cd frontend && start http://localhost:3000 && python -m http.server 3000",
+    "seed": "node backend/seed.js",
+    "build": "echo 'No build step needed for vanilla frontend'",
+    "postinstall": "echo 'Installation complete'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "MEAN",
+    "MongoDB",
+    "Express",
+    "Angular",
+    "Node.js",
+    "web-development",
+    "responsive",
+    "professional"
+  ],
+  "author": "Amit Kumar <amitanshu5993@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.1",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.17.1",
+    "multer": "^2.0.2",
+    "nodemailer": "^7.0.5"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/node": "^24.2.1",
+    "concurrently": "^9.2.0",
+    "nodemon": "^3.1.10",
+    "typescript": "^5.9.2"
+  }
+}
